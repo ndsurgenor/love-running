@@ -247,7 +247,7 @@ footer {
 
 /* media queries */
 
-@media screen and (max-width 1200px) {
+@media screen and (max-width: 1200px) {
 
     #club-ethos {
         width: 65%;
@@ -276,9 +276,16 @@ footer {
     hr {
         display: none;
     }
+
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
 }
 
-@media screen and (max-width 950px) {
+@media screen and (max-width: 950px) {
 
     #menu {
         clear: left;
