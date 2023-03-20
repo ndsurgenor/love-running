@@ -24,6 +24,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 /* nav links */
@@ -33,7 +34,8 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -65,7 +67,8 @@ h1, h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #fff;
 }
 
@@ -73,7 +76,7 @@ h1, h2 {
     height: 600px;
     width: 100%;
     background: url(../images/hero-image.webp) no-repeat center center;
-    
+
     /* zoom effect on page load */
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -82,10 +85,11 @@ h1, h2 {
 
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
 }
@@ -108,4 +112,57 @@ h1, h2 {
     right: 150px;
 
     position: absolute;
+}
+
+/* club ethos */
+
+#club-ethos {
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
 }
